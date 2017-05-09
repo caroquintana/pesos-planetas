@@ -5,7 +5,34 @@
 	<title>¡Tu peso en otro planeta!</title>
 </head>
 <body>
+	<h1>Tu peso en otro planeta</h1>
 
+	<div id="contenedor">
+	<label for="peso">Tu peso actual<input id="peso" required></label>
+	<label for="planetas">
+		<select id="planetas" required>
+			<option disabled selected>Selecciona</option>
+			<option value="3.7">Mercurio</option>
+			<option value="8.87">Venus</option>
+			<option value="3.7">Marte</option>
+			<option value="24.8">Jupiter</option>
+			<option value="10.44">Saturno</option>
+			<option value="8.7">Urano</option>
+			<option value="11.15">Mercurio</option>
+
+		</select>
+	</label>
+	<button onclick="calcular()">Calcular</button>
+	<!--<label for="venus">Tu peso en Venus<input id="venus"></label>
+	<label for="tierra">Tu peso en la Tierra<input id="tierra"></label>
+	<label for="marte">Tu peso en Marte<input id="marte"></label>
+	<label for="jupiter">Tu peso en Jupiter<input id="jupiter"></label>
+	<label for="saturno">Tu peso en Saturno<input id="saturno"></label>
+	<label for="urano">Tu peso en Urano<input id="urano"></label>
+	<label for="neptuno">Tu peso en Neptuno<input id="neptuno"></label>
+	<label for="pluton">Tu peso en Plutón<input id="pluton"></label>
+	<label for="sol">Tu peso en el Sol<input id="sol"></label>-->
+	</div>
 	<script type="text/javascript" src="assets/main.js"></script>
 </body>
 </html>
